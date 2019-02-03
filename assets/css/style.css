@@ -1,8 +1,109 @@
 header{
     display: block;
+    height: 50px;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: black;
+    
+}
+
+a{
+    padding: 0px 20px 0px 0px;
+}
+
+#myimage{
+    float: left;
+    padding-right: 10px;
+    
+}
+
+#bgimage{
+    background-image: url("/assets/images/gravel.png");
+    background-repeat: repeat;
+    width: 200;
+}
+body{
+    font: 'Arial','Helvetica Neue','Helvetica','sans-serif';
+    
+    
+   
+    
+
+}
+
+h1{
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: white;
+}
+
+h2{
+    color: #4aaaa5;
+}
+
+.topmenu{
+    /* display: block;
+    height: 50px;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: black; */
     background: #ffffff;
-    border: #cccccc;
-    height: 15%;
+    margin: auto;
+    height: 10%;
+    min-width: 25%;
+    max-width: 50%;
+    background: white;
     align-content: center;
 }
 
+#name{
+    background: #4aaaa5;
+    float: left;
+    width: 200px;
+    
+
+
+}
+
+.links{
+    float: right;
+    margin-top: fit-content;
+    padding: 5px 20px 5px 0px;
+
+
+
+}
+
+.mainregion{
+    display: block;
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    margin: auto;
+    
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #666666;
+    color: white;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
