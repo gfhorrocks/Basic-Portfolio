@@ -99,7 +99,7 @@ footer{
 }
 
 img{
-    margin: 0px 20px 0px 0px;
+    margin: 0px 15px 0px 0px;
 }
 
 h2{
@@ -126,9 +126,6 @@ h2{
     margin-top: 10px;
 }
 
-p{
-    margin-bottom: 15px;
-}
 
 .grow{ 
     transition: all .3s ease-in-out; 
@@ -163,4 +160,14 @@ p{
     z-index: 100;
     text-align: center;
     padding: 5px 0px 10px 0px;
+}
+
+.inputfield{
+    width: 100%;
+    height: 20px;
+}
+
+.inputbox{
+    width: 100%;
+    height: 200px
 }
